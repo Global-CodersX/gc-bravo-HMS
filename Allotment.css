@@ -1,0 +1,135 @@
+
+  .check-button{
+    display: block;
+    margin: 16px 0 22px;
+    border:none;
+    font-size: 16px;
+    cursor: pointer;
+    background: #000000;
+    padding: 7px 11px;
+    color: #fff;
+    outline: none;
+    align-items: center;
+  }
+ 
+  .container-fliud{
+    vertical-align: super;
+    align-content: center;
+    
+    background-color: white;
+    
+    height: 100%;
+    width: 80%;
+    padding-left: 7%; 
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: rgb(221, 100, 20);
+    padding-top: 0;
+  
+    margin:0 auto;
+    border: 2px solid rgb(221, 100, 20);
+  }
+ 
+  .main{
+    width: 80%;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.88);
+    padding: 10% 10%;
+  }
+   
+ 
+ 
+  .gap{
+    background-color: white; 
+    padding: 1.8%;
+    font-size: 8px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+   }  
+  .sm{
+    padding: 2%;
+    font-size: 12px;
+     background-color: #4CAF50; /* available */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+  .bm{
+    padding: 2%;
+    font-size: 12px;
+     background-color: rgb(192,192,192); /* Selecting */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+   .rm{
+    padding: 2%;
+    font-size: 12px;
+     background-color: #ff0000; /* Not available */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+ 
+.bb{
+  padding-left: 17%;
+}
+.crd{
+
+}
+.bc{
+    padding-right: 56%;
+}
+/* For upper details like name,id,hostel etc:*/
+.book-right{
+  float: right;
+  width: 50%;
+}
+.book-left{
+  float: left;
+  width: 50%;
+  padding-left: 0%;
+}
+.book-left ul{
+  list-style-type: none;
+}
+.book-left li{
+  font-size: 16px;
+  font-weight: 600;
+  color: #c55f00;
+  line-height: 1.9em;
+}
+.book-right li{
+  line-height: 2.2em;
+}
+.book-right ul{
+  list-style-type: none;
+}
+.secondhalf{
+  padding-bottom: 200px;
+}
+#submit{
+
+   padding-left: 32%;
+}

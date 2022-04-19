@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en-US" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Hostel-1</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <meta name="udacity-grader" content="tests.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Allotment.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  var x=0;
+  var y=0;
+  function clicka(button)//working of the submit button
+  {
+      
+      if(x!=0)
+      {
+          $(x).removeClass("bm");
+          $(x).addClass("sm");
+          
+      }
+      document.getElementById("pop").value=button;//colour change
+      document.getElementById("room").innerHTML=button;
+      x=document.getElementById(button);
+      y=button;
+      $(x).removeClass("sm");
+      $(x).addClass("bm");
+  }
+
+</script>
+  
+  
+</head>
+<body onload="load();return false;">
+  <br><br><br>
+
+  <div class="container-fliud " >
+    <div class="main">
+       <div class="secondhalf">
+   <div class="book-left">
+     <ul>
+     <li>Name :</li>
+     <li>Admn. No :</li>
+     <li>Alloted Hostel :</li>
+     <li>Selected Room :</li>
+   </ul>
+   </div>
+
+   
+  
+  <div class="book-right">
+    <ul >
+     <li id="name">&nbsp;</li>
+     <li id="admn">&nbsp;</li>
+     <li > Hostel-1 </li>
+     <li id="room">-</li>
+   </ul>
+ </div>
+   
+ </div>
+ <br>
+    <div >
+     <span class="bb"></span> <!-- 1--><!--is to hide-->
+     <button type="button" class="btn sm button" id="1" onClick="clicka(id)">01</button>
+ <button type="button" class="btn sm button " id="3" onClick="clicka(id)">03</button>
+ <button type="button" class="btn sm button" id="5" onClick="clicka(id)">05</button>
+ <button type="button" class="btn sm button" id="7" onClick="clicka(id)">07</button>
+ <button type="button" class="btn sm button" id="8" onClick="clicka(id)">08</button>
+ <button type="button" class="btn sm button" id="10" onClick="clicka(id)">10</button>
+ <button type="button" class="btn sm button" id="12" onClick="clicka(id)">12</button>
+ 
+</div>
+ <br>
+   <div >
+     <span class="bb"></span>  <!-- 2-->
+  <button type="button" class="btn sm button" id="2" onClick="clicka(id)">02</button>
+ <button type="button" class="btn sm button" id="4" onClick="clicka(id)">04</button>
+ <button type="button" class="btn sm button" id="6" onClick="clicka(id)">06</button>
+ <button type="button" class="btn  gap disabled" >1ST</button>
+ <button type="button" class="btn sm button" id="9" onClick="clicka(id)">09</button>
+ <button type="button" class="btn sm button" id="11" onClick="clicka(id)">11</button>
+ <button type="button" class="btn sm button" id="13" onClick="clicka(id)">13</button>
+
+</div>
+   <div ><!-- 3-->
+     
+  <button type="button" class="btn sm button" id="51" onClick="clicka(id)">51</button>
+    <span class="crd"></span>
+ <button type="button" class="btn sm button" id="52" onClick="clicka(id)">52</button>
+   <span class="bc"></span>
+ <button type="button" class="btn sm button" id="15" onClick="clicka(id)">15</button>
+   <span class="crd"></span>
+ <button type="button" class="btn sm button" id="14" onClick="clicka(id)">14</button>
+ 
+</div>
+  <div><!-- 4-->
+     
+  <button type="button" class="btn sm button" id="49" onClick="clicka(id)">49</button>
+    <span class="crd"></span>
+ <button type="button" class="btn sm button" id="50" onClick="clicka(id)">50</button>
+   <span class="bc"></span>
+ <button type="button" class="btn sm button" id="17" onClick="clicka(id)">17</button>
+   <span class="crd"></span>
+ <button type="button" class="btn sm button" id="16" onClick="clicka(id)">16</button>
+ 
+</div>
+ <div><!-- 5-->
+     
+  <button type="button" class="btn sm button" id="47" onClick="clicka(id)">47</button>
+    <span class="crd"></span>
+ <button type="button" class="btn sm button" id="48" onClick="clicka(id)">48</button>
+   <span class="bc"></span>
+ <button type="button" class="btn sm button" id="19" onClick="clicka(id)">19</button>
+   <span class="crd"></span>
+ <button type="button" class="btn sm button" id="18" onClick="clicka(id)">18</button>
+ 
+</div>
+ <div ><!-- 6-->
+     
+  <button type="button" class="btnsm sm button" id="46" onClick="clicka(id)">46</button>
+    <span class="crd"></span>
+ <button type="button" class="btn gap disabled" >4TH</button>
+   <span class="bc"></span>
+ <button type="button"  class="btn gap disabled">2ND</button>
+   <span class="mm"></span>
+ <button type="button" class="btn sm button" id="20" onClick="clicka(id)">20</button>
+ 
+</div>
+ <div ><!-- 7-->
+     
+  <button type="button" class="btn sm button" id="44" onClick="clicka(id)">44</button>
+    <span class="crd"></span>
+ <button type="button" class="btn sm button" id="45" onClick="clicka(id)">45</button>
+   <span class="bc"></span>
+ <button type="button" class="btn sm button" id="22" onClick="clicka(id)">22</button>
+   <span class="crd"></span>
+ <button type="button" class="btn sm button" id="21" onClick="clicka(id)">21</button>
+ 
+</div>
+ <div ><!-- 8-->
+     
+  <button type="button" class="btn sm button" id="42" onClick="clicka(id)">42</button>
+    <span class="crd"></span>
+ <button type="button" class="btn sm button" id="43" onClick="clicka(id)">43</button>
+   <span class="bc"></span>
+ <button type="button" class="btn sm button" id="24" onClick="clicka(id)">24</button>
+   <span class="crd"></span>
+ <button type="button" class="btn sm button" id="23" onClick="clicka(id)">23</button>
+ 
+</div>
+ <div ><!-- 9-->
+     
+  <button type="button" class="btn sm button" id="40" onClick="clicka(id)">40</button>
+    <span class="crd"></span>
+ <button type="button" class="btn sm button" id="41" onClick="clicka(id)">41</button>
+   <span class="bc"></span>
+ <button type="button" class="btn sm button" id="26" onClick="clicka(id)">26</button>
+   <span class="crd"></span>
+ <button type="button" class="btn sm button" id="25" onClick="clicka(id)">25</button>
+ 
+</div>
+
+    <div ><!-- 10-->
+     <span class="bb"></span> 
+  <button type="button" class="btn sm button " id="39" onClick="clicka(id)">39</button>
+ <button type="button" class="btn sm button " id="37" onClick="clicka(id)">37</button>
+ <button type="button" class="btn sm button" id="35" onClick="clicka(id)">35</button>
+ <button type="button" class="btn gap disabled">3RD</button>
+ <button type="button" class="btn sm button" id="32" onClick="clicka(id)">32</button>
+ <button type="button" class="btn sm button" id="30" onClick="clicka(id)">30</button>
+ <button type="button" class="btn sm button" id="28" onClick="clicka(id)">28</button>
+ 
+</div>
+ <br>
+  <div><!-- 11-->
+     <span class="bb"></span>  
+  <button type="button" class="btn sm button" id="38" onClick="clicka(id)">38</button>
+ <button type="button" class="btn sm button" id="36" onClick="clicka(id)">36</button>
+ <button type="button" class="btn sm button" id="34" onClick="clicka(id)">34</button>
+ <button type="button" class="btn sm button" id="33" onClick="clicka(id)">33</button>
+ <button type="button" class="btn sm button" id="31" onClick="clicka(id)">31</button>
+ <button type="button" class="btn sm button" id="29" onClick="clicka(id)">29</button>
+ <button type="button" class="btn sm button" id="27" onClick="clicka(id)">27</button>
+
+</div>
+
+ <br><br>
+<span id="submit"></span>
+<form method="post" action="" onsubmit="subr(this)>
+  <input type= "hidden"  name="room" id="pop"> 
+ 
+  <input type="submit" class="btn btn-primary btn-lg " value="Final Submission">
+</form>
+</div>
+      
+</div>
+<br><br><br>
+</body>
+</html>
